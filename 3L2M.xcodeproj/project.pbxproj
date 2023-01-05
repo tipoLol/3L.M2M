@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		BD175C66295BDC7700B139A8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD175C65295BDC7700B139A8 /* main.swift */; };
+		BD175C6D295BE13600B139A8 /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD175C6C295BE13600B139A8 /* DataBase.swift */; };
+		BD175CB62962692100B139A8 /* teachers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD175CB52962692100B139A8 /* teachers.swift */; };
+		BD175CB82962697000B139A8 /* students.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD175CB72962697000B139A8 /* students.swift */; };
+		BDB479562962716F00E4C068 /* hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB479552962716F00E4C068 /* hospital.swift */; };
+		BDB479582962718200E4C068 /* patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB479572962718200E4C068 /* patient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		BD175C62295BDC7700B139A8 /* 3L2M */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 3L2M; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD175C65295BDC7700B139A8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BD175C6C295BE13600B139A8 /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
+		BD175CB52962692100B139A8 /* teachers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teachers.swift; sourceTree = "<group>"; };
+		BD175CB72962697000B139A8 /* students.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = students.swift; sourceTree = "<group>"; };
+		BDB479552962716F00E4C068 /* hospital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hospital.swift; sourceTree = "<group>"; };
+		BDB479572962718200E4C068 /* patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				BD175C65295BDC7700B139A8 /* main.swift */,
+				BDB479572962718200E4C068 /* patient.swift */,
+				BDB479552962716F00E4C068 /* hospital.swift */,
+				BD175CB72962697000B139A8 /* students.swift */,
+				BD175CB52962692100B139A8 /* teachers.swift */,
+				BD175C6C295BE13600B139A8 /* DataBase.swift */,
 			);
 			path = 3L2M;
 			sourceTree = "<group>";
@@ -120,6 +135,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD175C6D295BE13600B139A8 /* DataBase.swift in Sources */,
+				BD175CB82962697000B139A8 /* students.swift in Sources */,
+				BD175CB62962692100B139A8 /* teachers.swift in Sources */,
+				BDB479582962718200E4C068 /* patient.swift in Sources */,
+				BDB479562962716F00E4C068 /* hospital.swift in Sources */,
 				BD175C66295BDC7700B139A8 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
